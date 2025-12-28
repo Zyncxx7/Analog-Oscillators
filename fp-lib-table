@@ -8,4 +8,6 @@
   (lib (name "ECW-FD2W105J")(type "KiCad")(uri "${KIPRJMOD}/LIB/ECW-FD2W105J")(options "")(descr ""))
   (lib (name "199D106X9016C1V1")(type "KiCad")(uri "${KIPRJMOD}/LIB/199D106X9016C1V1/199D106X9016C1V1.pretty")(options "")(descr ""))
   (lib (name "5442183")(type "KiCad")(uri "${KIPRJMOD}/LIB/5442183")(options "")(descr ""))
+  (lib (name "ERA-3AEB")(type "KiCad")(uri "${KIPRJMOD}/LIB/ERA-3AEB")(options "")(descr ""))
+  (lib (name "B4B_XH_A")(type "KiCad")(uri "${KIPRJMOD}/LIB/B4B_XH_A")(options "")(descr ""))
 )

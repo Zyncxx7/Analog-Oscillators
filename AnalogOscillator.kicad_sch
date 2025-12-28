@@ -651,6 +651,291 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "B4B-XH-A:B4B-XH-A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B4B-XH-A"
+				(at -2.54 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B4B-XH-A:JST_B4B-XH-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "7/4/21"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.00 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B4B-XH-A_0_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -6.35) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 2.2225)
+					(end -1.5875 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -0.3175)
+					(end -1.5875 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -2.8575)
+					(end -1.5875 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -5.3975)
+					(end -1.5875 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy 3.81 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -7.62) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CL21A106KQFNNNG:CL21A106KQFNNNG"
 			(pin_names
 				(hide yes)
@@ -843,179 +1128,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ECW-FD2W105J:ECW-FD2W105J"
 			(pin_names
 				(hide yes)
@@ -1189,6 +1301,471 @@
 				)
 				(pin passive line
 					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ERA-3AEB102V:ERA-3AEB102V"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERA-3AEB102V"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERA3AEB101V"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 0603 1/10W 1Kohms 0.1% 25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-ERA-3AEB102V"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB102V?qs=1VWA5LkbEaoqrqE7i0E0xA%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERA-3AEB102V"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ERA-3AEB102V_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ERA-3AEB103V:ERA-3AEB103V"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERA-3AEB103V"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERA3AEB101V"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 0603 1/10W 10Kohms 0.1% 25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-ERA-3AEB103V"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB103V?qs=1VWA5LkbEaprA2zo9bMIGA%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERA-3AEB103V"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ERA-3AEB103V_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ERA-3AEB104V:ERA-3AEB104V"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERA-3AEB104V"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERA3AEB101V"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 0603 1/10W 100Kohms"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-ERA-3AEB104V"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB104V?qs=1VWA5LkbEarhALy1E%252BGvSA%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERA-3AEB104V"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ERA-3AEB104V_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -2102,6 +2679,18 @@
 		(uuid 56af6ca2-68ad-452b-9b71-fd03ea54c1f5)
 	)
 	(rectangle
+		(start 560.07 129.54)
+		(end 612.14 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5fabefec-a8ee-4354-b3a4-a4a739014003)
+	)
+	(rectangle
 		(start 351.79 331.47)
 		(end 505.46 408.94)
 		(stroke
@@ -2451,6 +3040,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56ae4553-4e49-4bf0-bf92-cdaf3f29f53f")
+	)
+	(junction
+		(at 723.9 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6f3dc8-7bb3-4536-8baf-01d7eb41983e")
+	)
+	(junction
+		(at 589.28 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e4a4d9a-b6f4-4667-b9a2-7de67346e9ec")
 	)
 	(junction
 		(at 457.2 248.92)
@@ -2840,16 +3441,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 43.18 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb36d15-d11b-4cdc-bce2-b1b68de680b5")
-	)
-	(wire
-		(pts
 			(xy 195.58 152.4) (xy 219.71 152.4)
 		)
 		(stroke
@@ -2960,16 +3551,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 179.07) (xy 309.88 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1280d9c6-98eb-494b-917b-44bbc811a832")
-	)
-	(wire
-		(pts
 			(xy 420.37 74.93) (xy 421.64 74.93)
 		)
 		(stroke
@@ -3007,16 +3588,6 @@
 			(type default)
 		)
 		(uuid "1844ded9-4474-4813-bf73-317fb5ad9771")
-	)
-	(wire
-		(pts
-			(xy 59.69 392.43) (xy 59.69 394.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ac8455-9684-499f-847d-a62e46cf25db")
 	)
 	(wire
 		(pts
@@ -3380,13 +3951,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 394.97) (xy 224.79 394.97)
+			(xy 589.28 148.59) (xy 600.71 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35ad8a14-8b48-4fbc-861f-50d1de55413a")
+		(uuid "35e47372-7b8e-459b-8557-b12133ad3f22")
 	)
 	(wire
 		(pts
@@ -3397,6 +3968,16 @@
 			(type default)
 		)
 		(uuid "3667c971-0bf9-463b-b8a7-930a236a52be")
+	)
+	(wire
+		(pts
+			(xy 401.32 71.12) (xy 410.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ac53f3-f07b-4f68-9d1d-72040b70ad4d")
 	)
 	(wire
 		(pts
@@ -3427,16 +4008,6 @@
 			(type default)
 		)
 		(uuid "38219857-5744-4d66-98b5-a69788ce9e1f")
-	)
-	(wire
-		(pts
-			(xy 641.35 39.37) (xy 723.9 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "395022c7-bf64-427a-8cf4-2d5c7c1e14d1")
 	)
 	(wire
 		(pts
@@ -3530,23 +4101,33 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 397.51) (xy 384.81 397.51)
+			(xy 600.71 147.32) (xy 600.71 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40e396f6-accb-4686-b4be-c80f03b7d135")
+		(uuid "413cec1b-6448-42d0-8296-f40478aa783f")
 	)
 	(wire
 		(pts
-			(xy 40.64 180.34) (xy 55.88 180.34)
+			(xy 292.1 179.07) (xy 309.88 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41c1b6d8-1f9f-44e6-8c59-8b83affb69af")
+		(uuid "421feaa8-244c-4eff-9197-2ffd692d3b4d")
+	)
+	(wire
+		(pts
+			(xy 651.51 39.37) (xy 723.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428396aa-e23b-4839-bd00-7fc1bcfb628f")
 	)
 	(wire
 		(pts
@@ -3600,6 +4181,16 @@
 	)
 	(wire
 		(pts
+			(xy 589.28 148.59) (xy 589.28 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47621a10-b8b4-4254-a4dd-1b264a3986d8")
+	)
+	(wire
+		(pts
 			(xy 403.86 81.28) (xy 403.86 82.55)
 		)
 		(stroke
@@ -3630,13 +4221,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 392.43) (xy 222.25 394.97)
+			(xy 581.66 72.39) (xy 586.74 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ca43f63-d1ca-4740-a104-457abbe1a6b8")
+		(uuid "4c88890c-c1ed-482d-9ac5-427de9c49fe1")
 	)
 	(wire
 		(pts
@@ -3687,16 +4278,6 @@
 			(type default)
 		)
 		(uuid "50a2ba48-feb1-4509-88ec-d5c1c4f6c9b1")
-	)
-	(wire
-		(pts
-			(xy 571.5 72.39) (xy 586.74 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511ea59e-bb52-4949-9da6-4c27894029b1")
 	)
 	(wire
 		(pts
@@ -3970,23 +4551,13 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 38.1) (xy 457.2 38.1)
+			(xy 410.21 38.1) (xy 452.12 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "673443c8-d489-4d70-98eb-544a0db5f44a")
-	)
-	(wire
-		(pts
-			(xy 382.27 394.97) (xy 382.27 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688d203b-a799-4285-a1ae-8b943527dd76")
 	)
 	(wire
 		(pts
@@ -4020,16 +4591,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 71.12) (xy 410.21 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d72ffd4-eb1b-43b7-b1c7-7434a9552436")
-	)
-	(wire
-		(pts
 			(xy 359.41 284.48) (xy 359.41 285.75)
 		)
 		(stroke
@@ -4037,6 +4598,16 @@
 			(type default)
 		)
 		(uuid "6e2f0412-9d48-4ce9-8c33-1b0d6c959cee")
+	)
+	(wire
+		(pts
+			(xy 668.02 185.42) (xy 668.02 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e382b8c-390d-4175-b096-e975e5e3456e")
 	)
 	(wire
 		(pts
@@ -4110,6 +4681,16 @@
 	)
 	(wire
 		(pts
+			(xy 662.94 189.23) (xy 668.02 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7589fff5-d05b-4bab-8ae3-b1f63b732d0e")
+	)
+	(wire
+		(pts
 			(xy 547.37 72.39) (xy 508 72.39)
 		)
 		(stroke
@@ -4137,16 +4718,6 @@
 			(type default)
 		)
 		(uuid "7c640a4f-af57-4f06-a85f-586f227e17f8")
-	)
-	(wire
-		(pts
-			(xy 220.98 69.85) (xy 236.22 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cf27355-519c-4571-9a5f-09f930336d54")
 	)
 	(wire
 		(pts
@@ -4207,16 +4778,6 @@
 			(type default)
 		)
 		(uuid "85045e29-c324-414c-a04f-fb2dabe98c5b")
-	)
-	(wire
-		(pts
-			(xy 59.69 394.97) (xy 62.23 394.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "856ee9bf-96b2-426a-bca0-9405fda52876")
 	)
 	(wire
 		(pts
@@ -4300,6 +4861,16 @@
 	)
 	(wire
 		(pts
+			(xy 668.02 179.07) (xy 668.02 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddbc592-8167-4b3a-8666-ccba84f72cbf")
+	)
+	(wire
+		(pts
 			(xy 185.42 302.26) (xy 213.36 302.26)
 		)
 		(stroke
@@ -4327,6 +4898,16 @@
 			(type default)
 		)
 		(uuid "903c74a8-7460-408a-9091-6e8686f026b6")
+	)
+	(wire
+		(pts
+			(xy 668.02 196.85) (xy 668.02 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9059894f-5bfc-4e9a-ac85-2162742daec7")
 	)
 	(wire
 		(pts
@@ -4367,6 +4948,16 @@
 			(type default)
 		)
 		(uuid "93d9fe09-deeb-4f20-b186-5f1ecd0ee80c")
+	)
+	(wire
+		(pts
+			(xy 469.9 38.1) (xy 547.37 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9461d70a-378d-4ddc-9114-023409c97aca")
 	)
 	(wire
 		(pts
@@ -4480,6 +5071,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 39.37) (xy 43.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff5b365-d79e-4960-9c71-97fb05a44981")
+	)
+	(wire
+		(pts
 			(xy 690.88 71.12) (xy 690.88 49.53)
 		)
 		(stroke
@@ -4520,6 +5121,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 39.37) (xy 20.32 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3cb5766-6e63-4304-92e8-1aaef2e01558")
+	)
+	(wire
+		(pts
 			(xy 49.53 208.28) (xy 66.04 208.28)
 		)
 		(stroke
@@ -4550,6 +5161,16 @@
 	)
 	(wire
 		(pts
+			(xy 662.94 190.5) (xy 662.94 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f3c3d1-20cc-41d4-8bf1-de1cdc3414d2")
+	)
+	(wire
+		(pts
 			(xy 461.01 368.3) (xy 454.66 368.3)
 		)
 		(stroke
@@ -4577,6 +5198,16 @@
 			(type default)
 		)
 		(uuid "aa767b31-5aec-4ae5-9e88-9bace503bb5a")
+	)
+	(wire
+		(pts
+			(xy 39.37 180.34) (xy 55.88 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab67c803-004e-4c6a-b75c-2916edb6de89")
 	)
 	(wire
 		(pts
@@ -4920,7 +5551,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 400.05) (xy 384.81 400.05)
+			(xy 356.87 400.05) (xy 398.78 400.05)
 		)
 		(stroke
 			(width 0)
@@ -5020,16 +5651,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 39.37) (xy 29.21 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce3a5d7b-580a-432b-ba8c-15424d8f81f8")
-	)
-	(wire
-		(pts
 			(xy 309.88 146.05) (xy 447.04 146.05)
 		)
 		(stroke
@@ -5080,6 +5701,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 69.85) (xy 236.22 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51001db-637a-497e-849c-90b0d246ce51")
+	)
+	(wire
+		(pts
 			(xy 414.02 177.8) (xy 407.67 177.8)
 		)
 		(stroke
@@ -5090,7 +5721,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 71.12) (xy 387.35 71.12)
+			(xy 373.38 71.12) (xy 383.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5180,17 +5811,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 38.1) (xy 547.37 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcabee1d-9ef9-4174-b762-27560340551f")
-	)
-	(wire
-		(pts
-			(xy 199.39 69.85) (xy 213.36 69.85)
+			(xy 199.39 69.85) (xy 209.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5207,6 +5828,16 @@
 			(type default)
 		)
 		(uuid "df18100a-3a53-460f-a888-8d6f0b8e4247")
+	)
+	(wire
+		(pts
+			(xy 662.94 185.42) (xy 668.02 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e064f5ee-fe27-422d-978d-350e3586280b")
 	)
 	(wire
 		(pts
@@ -5360,6 +5991,16 @@
 	)
 	(wire
 		(pts
+			(xy 589.28 142.24) (xy 589.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebcac344-ae83-4c95-817b-022d17c7a7ff")
+	)
+	(wire
+		(pts
 			(xy 322.58 238.76) (xy 322.58 273.05)
 		)
 		(stroke
@@ -5440,6 +6081,16 @@
 	)
 	(wire
 		(pts
+			(xy 723.9 39.37) (xy 728.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53e59b4-f81c-4176-a4ad-1330b21f81f4")
+	)
+	(wire
+		(pts
 			(xy 160.02 179.07) (xy 153.67 179.07)
 		)
 		(stroke
@@ -5447,6 +6098,16 @@
 			(type default)
 		)
 		(uuid "f628ed2b-5d8e-4615-9b3a-1324550f598a")
+	)
+	(wire
+		(pts
+			(xy 662.94 179.07) (xy 668.02 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72d8c52-d600-4ea2-9c16-e16b9ac26ba8")
 	)
 	(wire
 		(pts
@@ -5656,6 +6317,28 @@
 			)
 		)
 	)
+	(global_label "X_out"
+		(shape input)
+		(at 224.79 397.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dfbd0ee-3b75-4c5f-a177-1854041762dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.976 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "-V"
 		(shape input)
 		(at 728.98 39.37 0)
@@ -5691,6 +6374,28 @@
 		(uuid "4ae39d26-3f5a-4a68-b1dd-46cf622559cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.2667 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VR2"
+		(shape input)
+		(at 571.5 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50bb252d-24e2-4cec-bd13-e904288f8973")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 564.9467 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,6 +6471,28 @@
 			)
 		)
 	)
+	(global_label "V_out"
+		(shape input)
+		(at 662.94 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d5af164-3afc-4072-95ed-98253ee80f1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 654.8749 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VR1"
 		(shape input)
 		(at 292.1 179.07 180)
@@ -5779,6 +6506,28 @@
 		(uuid "94d105fa-2600-440c-8503-5d68d9501dec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 285.5467 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_out"
+		(shape input)
+		(at 662.94 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97a0c00c-af0c-4191-8666-7a0fb6e25245")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 654.754 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,6 +6577,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "X_out"
+		(shape input)
+		(at 662.94 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a35d5910-05ec-4071-b053-6bc819f07868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 654.754 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5889,6 +6660,72 @@
 		(uuid "c1ed686e-8aa5-4b74-9703-595166a2b661")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.7733 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VR1"
+		(shape input)
+		(at 571.5 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d05278bf-d157-4906-b799-5d2e4db5a1f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 564.9467 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_out"
+		(shape input)
+		(at 62.23 397.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2b429ef-caf1-4eda-b35e-5c812ca17588")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.2951 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_out"
+		(shape input)
+		(at 600.71 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6cd6934-6faf-4976-b31f-8956071a4e5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 608.896 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,6 +7314,125 @@
 			(project "Untitled"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ERA-3AEB104V:ERA-3AEB104V")
+		(at 21.59 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f345ea9-cf49-421f-ae4d-a0e466b9d941")
+		(property "Reference" "R6"
+			(at 30.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-3AEB104V"
+			(at 30.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA-3AEB:ERA3AEB101V"
+			(at 35.56 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 35.56 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 0603 1/10W 100Kohms"
+			(at 21.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 35.56 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB104V"
+			(at 35.56 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB104V?qs=1VWA5LkbEarhALy1E%252BGvSA%3D%3D"
+			(at 35.56 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 35.56 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB104V"
+			(at 35.56 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2d363b0-d082-47d9-8752-f483c7636162")
+		)
+		(pin "2"
+			(uuid "b8b70f8f-487c-4ed7-b7b2-0b480bee510e")
+		)
+		(instances
+			(project ""
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7604,125 +8560,233 @@
 		)
 	)
 	(symbol
-		(lib_id "031-71052:031-71052")
-		(at 62.23 394.97 0)
+		(lib_id "ERA-3AEB103V:ERA-3AEB103V")
+		(at 452.12 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2c0bba44-0a57-4dba-9686-d6b8aa4c9227")
+		(uuid "2b4c2fd1-bb38-4651-ba92-b29c91e874ba")
+		(property "Reference" "R3"
+			(at 461.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-3AEB103V"
+			(at 461.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA-3AEB:ERA3AEB101V"
+			(at 466.09 134.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 466.09 234.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 0603 1/10W 10Kohms 0.1% 25ppm"
+			(at 452.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 466.09 434.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB103V"
+			(at 466.09 534.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB103V?qs=1VWA5LkbEaprA2zo9bMIGA%3D%3D"
+			(at 466.09 634.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 466.09 734.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB103V"
+			(at 466.09 834.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ce2a605-99a8-4a5d-a0a3-107c3eee7a78")
+		)
+		(pin "1"
+			(uuid "d5919318-6872-4d18-b24d-6d089f29ebd3")
+		)
+		(instances
+			(project "AnalogOscillator"
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B4B-XH-A:B4B-XH-A")
+		(at 406.4 397.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c1cc15b-2973-4535-94da-9de4be3f3a80")
 		(property "Reference" "J4"
-			(at 77.47 387.35 0)
+			(at 406.4 410.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "031-71052"
-			(at 77.47 389.89 0)
+		(property "Value" "B4B-XH-A"
+			(at 406.4 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "031-71052:03171052"
-			(at 88.9 392.43 0)
+		(property "Footprint" "B4B_XH_A:JST_B4B-XH-A"
+			(at 406.4 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.amphenolrf.com/library/download/link/link_id/594157/parent/031-71052/"
-			(at 88.9 394.97 0)
+		(property "Datasheet" ""
+			(at 406.4 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "BNC Right Angle PCB Jack Through Hole Bulkhead Rear Mount 75 Ohm Isolated"
-			(at 88.9 397.51 0)
+		(property "Description" ""
+			(at 406.4 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Height" "13.4"
-			(at 88.9 400.05 0)
+		(property "PARTREV" "7/4/21"
+			(at 406.4 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "TTI Part Number" ""
-			(at 88.9 402.59 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 406.4 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "TTI Price/Stock" ""
-			(at 88.9 405.13 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.00 mm"
+			(at 406.4 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Amphenol"
-			(at 88.9 407.67 0)
+		(property "MANUFACTURER" "JST"
+			(at 406.4 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "031-71052"
-			(at 88.9 410.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "23d01595-9ccb-4087-8b57-9db4ebc20f8d")
+			(uuid "bfa49e62-b59e-431c-9fd1-d990f404fe14")
 		)
 		(pin "2"
-			(uuid "d35a84a7-6af2-4f09-aee6-af76fb238532")
+			(uuid "f8330d49-8045-4b20-8802-08d62259108d")
 		)
-		(pin "MH1"
-			(uuid "b6b942fd-558b-4970-bbd1-5d8c05ce3e5a")
+		(pin "3"
+			(uuid "4dc79a7d-5da9-4661-a1b8-761d5c88e805")
 		)
-		(pin "MH2"
-			(uuid "cca884e9-5139-4101-aac9-453e1b71cf15")
+		(pin "4"
+			(uuid "a727c809-7440-4ee8-ae6d-d6abced437ed")
 		)
 		(instances
-			(project "Untitled"
+			(project "AnalogOscillator"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
 					(reference "J4")
 					(unit 1)
@@ -8158,6 +9222,126 @@
 		)
 	)
 	(symbol
+		(lib_id "ERA-3AEB103V:ERA-3AEB103V")
+		(at 633.73 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e3ecb31-b5d9-4415-ba3a-0cb561e1aa1e")
+		(property "Reference" "R8"
+			(at 642.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-3AEB103V"
+			(at 642.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA-3AEB:ERA3AEB101V"
+			(at 647.7 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 647.7 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 0603 1/10W 10Kohms 0.1% 25ppm"
+			(at 633.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 647.7 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB103V"
+			(at 647.7 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB103V?qs=1VWA5LkbEaprA2zo9bMIGA%3D%3D"
+			(at 647.7 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 647.7 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB103V"
+			(at 647.7 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7d7c187-cb13-4344-8077-2be0dc599323")
+		)
+		(pin "1"
+			(uuid "155d6dc4-ba2d-4dae-abda-ba4241d33165")
+		)
+		(instances
+			(project "AnalogOscillator"
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-15V")
 		(at 580.39 100.33 180)
 		(unit 1)
@@ -8478,124 +9662,6 @@
 			(project "Untitled"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECW-FD2W105J:ECW-FD2W105J")
-		(at 283.21 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38679e08-473b-416e-a2a6-c0ae68f23b7e")
-		(property "Reference" "C2"
-			(at 289.56 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 289.56 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECW-FD2W105J:ECWFD2W105J"
-			(at 292.1 133.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C255.pdf"
-			(at 292.1 233.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 283.21 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "11"
-			(at 292.1 433.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ECW-FD2W105J"
-			(at 292.1 533.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-FD2W105J?qs=qeco7YeAuFAUNtGajKW2fQ%3D%3D"
-			(at 292.1 633.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 292.1 733.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECW-FD2W105J"
-			(at 292.1 833.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b30a9ea7-cd47-4b62-8da8-f07bc74b4913")
-		)
-		(pin "1"
-			(uuid "e65d33f0-9aa1-4299-af25-bcd9b0fd8e2d")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9747,17 +10813,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 392.43 180)
+		(lib_id "ERA-3AEB104V:ERA-3AEB104V")
+		(at 571.5 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "56ffcb2a-dcbe-483f-a5a2-62d55c359884")
-		(property "Reference" "#PWR034"
-			(at 59.69 386.08 0)
+		(uuid "5611056a-bff5-4a45-b57b-3dae5cf99635")
+		(property "Reference" "R9"
+			(at 580.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-3AEB104V"
+			(at 580.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA-3AEB:ERA3AEB101V"
+			(at 585.47 238.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 585.47 338.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 0603 1/10W 100Kohms"
+			(at 571.5 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9765,47 +10867,66 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 59.69 387.35 0)
+		(property "Height" "0.55"
+			(at 585.47 538.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 59.69 392.43 0)
+		(property "Mouser Part Number" "667-ERA-3AEB104V"
+			(at 585.47 638.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 59.69 392.43 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB104V?qs=1VWA5LkbEarhALy1E%252BGvSA%3D%3D"
+			(at 585.47 738.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 585.47 838.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB104V"
+			(at 585.47 938.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "b4f0fbeb-58dd-456b-af20-064a084e3ce0")
+			(uuid "adf6a5a7-1ef3-4527-baef-84ead6d9fb6b")
+		)
+		(pin "2"
+			(uuid "53c0fdbb-7602-4cc5-a60d-c04f16e62c46")
 		)
 		(instances
-			(project "Untitled"
+			(project "AnalogOscillator"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "#PWR034")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10790,6 +11911,126 @@
 		)
 	)
 	(symbol
+		(lib_id "ERA-3AEB103V:ERA-3AEB103V")
+		(at 383.54 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d7ec4e3-fd94-4455-bbe9-ddd35c5c02b1")
+		(property "Reference" "R2"
+			(at 392.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-3AEB103V"
+			(at 392.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA-3AEB:ERA3AEB101V"
+			(at 397.51 167.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 397.51 267.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 0603 1/10W 10Kohms 0.1% 25ppm"
+			(at 383.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 397.51 467.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB103V"
+			(at 397.51 567.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB103V?qs=1VWA5LkbEaprA2zo9bMIGA%3D%3D"
+			(at 397.51 667.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 397.51 767.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB103V"
+			(at 397.51 867.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af90a669-85e5-4ea7-8815-6e428a977191")
+		)
+		(pin "1"
+			(uuid "7afd7988-f224-42a0-8b48-3bb3d5b9c276")
+		)
+		(instances
+			(project ""
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 175.26 0)
 		(unit 1)
@@ -11036,74 +12277,6 @@
 			(project "Untitled"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 33.02 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77dd2caf-914b-468c-b24a-407d3226b46d")
-		(property "Reference" "R8"
-			(at 33.02 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 33.02 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 32.766 40.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 33.02 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f06dd9cf-867d-4306-9086-1a602518531e")
-		)
-		(pin "2"
-			(uuid "9144e7a7-fbbd-49ef-bdf5-5c77a844304b")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11489,71 +12662,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 392.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f6ebe73-2f94-4957-afe6-b73367de50b0")
-		(property "Reference" "#PWR045"
-			(at 222.25 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e544dafd-4789-4fe8-9ee9-82554dbb2a4d")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-15V")
 		(at 370.84 383.54 180)
 		(unit 1)
@@ -11828,74 +12936,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 217.17 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "815ba9dc-4a37-4877-b2cd-aa4123319c42")
-		(property "Reference" "R12"
-			(at 217.17 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 217.17 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 216.916 70.866 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 217.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "603099af-118f-4329-8987-68b9b44f71eb")
-		)
-		(pin "2"
-			(uuid "50535387-67df-4468-a6cb-e0b9d568d640")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-15V")
 		(at 48.26 381 180)
 		(unit 1)
@@ -12145,74 +13185,6 @@
 			(project "Untitled"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 461.01 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "899b2f3e-0518-4d22-8a16-c42503aad723")
-		(property "Reference" "R14"
-			(at 461.01 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 461.01 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 460.756 39.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 461.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 461.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0841e4ec-58ca-456b-b400-8e7e7add1d42")
-		)
-		(pin "2"
-			(uuid "b1fbfd5f-6428-46d3-bf41-66b5ca1d46e9")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12487,125 +13459,6 @@
 			(project "Untitled"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECW-FD2W105J:ECW-FD2W105J")
-		(at 109.22 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9172c640-300e-4190-9db2-56134be2406e")
-		(property "Reference" "C1"
-			(at 115.57 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 115.57 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECW-FD2W105J:ECWFD2W105J"
-			(at 118.11 131.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C255.pdf"
-			(at 118.11 231.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "11"
-			(at 118.11 431.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ECW-FD2W105J"
-			(at 118.11 531.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-FD2W105J?qs=qeco7YeAuFAUNtGajKW2fQ%3D%3D"
-			(at 118.11 631.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 118.11 731.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECW-FD2W105J"
-			(at 118.11 831.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c4db593-d7ce-4d17-a3bf-48664e7d42d2")
-		)
-		(pin "1"
-			(uuid "ae9b0ea3-be9d-4bfb-a2a5-355de307d920")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13006,6 +13859,246 @@
 		)
 	)
 	(symbol
+		(lib_id "ECW-FD2W105J:ECW-FD2W105J")
+		(at 283.21 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3630e9d-4592-456e-9e6b-15d2ef7f952f")
+		(property "Reference" "C2"
+			(at 289.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECW-FD2W105J"
+			(at 289.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECW-FD2W105J:ECWFD2W105J"
+			(at 292.1 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C255.pdf"
+			(at 292.1 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PANASONIC - ECW-FD2W105J - FILM CAPACITOR, 1uF, 450V, 5%, RADIAL"
+			(at 283.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11"
+			(at 292.1 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ECW-FD2W105J"
+			(at 292.1 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-FD2W105J?qs=qeco7YeAuFAUNtGajKW2fQ%3D%3D"
+			(at 292.1 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 292.1 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ECW-FD2W105J"
+			(at 292.1 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43fa7577-90ab-434f-a5d6-c7d7dfa24926")
+		)
+		(pin "2"
+			(uuid "798c5498-eb8b-42bb-8386-61c5e0b140cc")
+		)
+		(instances
+			(project "AnalogOscillator"
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECW-FD2W105J:ECW-FD2W105J")
+		(at 109.22 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e0cc75-41fe-44a0-865e-0a8341e130a5")
+		(property "Reference" "C1"
+			(at 115.57 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECW-FD2W105J"
+			(at 115.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECW-FD2W105J:ECWFD2W105J"
+			(at 118.11 131.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C255.pdf"
+			(at 118.11 231.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PANASONIC - ECW-FD2W105J - FILM CAPACITOR, 1uF, 450V, 5%, RADIAL"
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11"
+			(at 118.11 431.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ECW-FD2W105J"
+			(at 118.11 531.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-FD2W105J?qs=qeco7YeAuFAUNtGajKW2fQ%3D%3D"
+			(at 118.11 631.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 118.11 731.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ECW-FD2W105J"
+			(at 118.11 831.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a59fdf-912f-459d-ba8a-c588ec4e95e4")
+		)
+		(pin "2"
+			(uuid "a7e0fd7c-b8b2-4212-8edd-dd8ee286590e")
+		)
+		(instances
+			(project ""
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 457.2 266.7 0)
 		(unit 1)
@@ -13373,6 +14466,126 @@
 			(project "Untitled"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ERA-3AEB103V:ERA-3AEB103V")
+		(at 571.5 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13c786d-7611-4dbc-8e9e-e4af1639ade9")
+		(property "Reference" "R5"
+			(at 580.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-3AEB103V"
+			(at 580.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA-3AEB:ERA3AEB101V"
+			(at 585.47 251.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 585.47 351.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 0603 1/10W 10Kohms 0.1% 25ppm"
+			(at 571.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 585.47 551.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB103V"
+			(at 585.47 651.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB103V?qs=1VWA5LkbEaprA2zo9bMIGA%3D%3D"
+			(at 585.47 751.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 585.47 851.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB103V"
+			(at 585.47 951.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "290a774b-8259-4a6e-8207-ce9641687464")
+		)
+		(pin "1"
+			(uuid "8e521f99-b6a1-4622-a5bd-969ee0ee97b8")
+		)
+		(instances
+			(project "AnalogOscillator"
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13878,16 +15091,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 382.27 394.97 180)
+		(at 668.02 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd65fa26-6434-4390-bfdf-f679ecef5c8d")
-		(property "Reference" "#PWR072"
-			(at 382.27 388.62 0)
+		(uuid "bc89fc5e-ce9f-4e00-ba80-1a1eefb3b9fc")
+		(property "Reference" "#PWR075"
+			(at 668.02 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13896,7 +15108,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 382.27 389.89 0)
+			(at 668.02 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13904,7 +15116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 394.97 0)
+			(at 668.02 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13913,7 +15125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 394.97 0)
+			(at 668.02 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13922,7 +15134,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 382.27 394.97 0)
+			(at 668.02 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "986e4c8b-a560-46ab-bc3b-1c2a5e15069c")
+		)
+		(instances
+			(project "AnalogOscillator"
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 398.78 402.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd65fa26-6434-4390-bfdf-f679ecef5c8d")
+		(property "Reference" "#PWR072"
+			(at 392.43 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 394.97 402.5901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 398.78 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14193,201 +15471,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 637.54 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2c707f4-1863-4ef9-a6d0-aec5bb8d37df")
-		(property "Reference" "R16"
-			(at 637.54 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 637.54 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 637.286 40.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 637.54 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 637.54 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e569f5c-6cdc-4aa6-bd4e-1bbab8b78473")
-		)
-		(pin "2"
-			(uuid "21e0a672-3850-4dbd-81a4-c735161deb73")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "031-71052:031-71052")
-		(at 224.79 394.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca61141b-6ce3-47ae-a022-fcd213d4b27f")
-		(property "Reference" "J5"
-			(at 240.03 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "031-71052"
-			(at 240.03 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "031-71052:03171052"
-			(at 251.46 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.amphenolrf.com/library/download/link/link_id/594157/parent/031-71052/"
-			(at 251.46 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "BNC Right Angle PCB Jack Through Hole Bulkhead Rear Mount 75 Ohm Isolated"
-			(at 251.46 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "13.4"
-			(at 251.46 400.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "TTI Part Number" ""
-			(at 251.46 402.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "TTI Price/Stock" ""
-			(at 251.46 405.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol"
-			(at 251.46 407.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "031-71052"
-			(at 251.46 410.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e7a250c-d355-46ea-9cb6-a1d21f1caf4e")
-		)
-		(pin "2"
-			(uuid "44c6a7a8-9263-4fda-a27f-69f10f7524dd")
-		)
-		(pin "MH1"
-			(uuid "84da9b4b-d965-4454-a34b-604b532ecd00")
-		)
-		(pin "MH2"
-			(uuid "644d5a82-a803-4a6b-ae80-5498e0989d01")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2025-12-18_09-12-02:OPA134PA")
 		(at 356.87 267.97 0)
 		(unit 1)
@@ -14476,74 +15559,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 567.69 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc54d44e-66d8-47ee-9c8f-a7247c8c3b66")
-		(property "Reference" "R15"
-			(at 567.69 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 567.69 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 567.436 73.406 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 567.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 567.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8b8cba1-8717-4d34-93cb-e8ca1bf77785")
-		)
-		(pin "2"
-			(uuid "3d8c8a75-e27c-4e5d-af73-c5b89dabd72d")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 247.65 71.12 270)
@@ -14606,74 +15621,6 @@
 			(project "Untitled"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 391.16 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccefaee2-671f-4609-a4a8-962908659aa4")
-		(property "Reference" "R13"
-			(at 391.16 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 391.16 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 390.906 72.136 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 391.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 391.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d87e18ab-34bb-44d2-b29f-06ef31a68756")
-		)
-		(pin "2"
-			(uuid "20e7d7aa-52da-4e12-8ca0-f780b3a39d7f")
-		)
-		(instances
-			(project "Untitled"
-				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15507,6 +16454,126 @@
 		)
 	)
 	(symbol
+		(lib_id "ERA-3AEB102V:ERA-3AEB102V")
+		(at 209.55 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e600f558-6816-4cf2-bd70-3f62b7ae1141")
+		(property "Reference" "R1"
+			(at 218.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-3AEB102V"
+			(at 218.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA-3AEB:ERA3AEB101V"
+			(at 223.52 166.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 223.52 266.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 0603 1/10W 1Kohms 0.1% 25ppm"
+			(at 209.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 223.52 466.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB102V"
+			(at 223.52 566.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB102V?qs=1VWA5LkbEaoqrqE7i0E0xA%3D%3D"
+			(at 223.52 666.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 223.52 766.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB102V"
+			(at 223.52 866.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fc9db60-509f-43b4-9757-07de0a656870")
+		)
+		(pin "2"
+			(uuid "5a28aea3-d14b-432f-9806-4127612990db")
+		)
+		(instances
+			(project ""
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 379.73 90)
 		(unit 1)
@@ -16067,127 +17134,117 @@
 		)
 	)
 	(symbol
-		(lib_id "031-71052:031-71052")
-		(at 384.81 397.51 0)
+		(lib_id "B4B-XH-A:B4B-XH-A")
+		(at 675.64 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f1370dba-2bad-4487-b974-47165d0478e3")
-		(property "Reference" "J8"
-			(at 400.05 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "031-71052"
-			(at 400.05 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "031-71052:03171052"
-			(at 411.48 394.97 0)
+		(uuid "f1ea5f68-54a8-45f4-aba2-6aa365273e4d")
+		(property "Reference" "J1"
+			(at 680.72 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "B4B-XH-A"
+			(at 680.72 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B4B_XH_A:JST_B4B-XH-A"
+			(at 675.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.amphenolrf.com/library/download/link/link_id/594157/parent/031-71052/"
-			(at 411.48 397.51 0)
+		(property "Datasheet" ""
+			(at 675.64 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "BNC Right Angle PCB Jack Through Hole Bulkhead Rear Mount 75 Ohm Isolated"
-			(at 411.48 400.05 0)
+		(property "Description" ""
+			(at 675.64 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Height" "13.4"
-			(at 411.48 402.59 0)
+		(property "PARTREV" "7/4/21"
+			(at 675.64 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "TTI Part Number" ""
-			(at 411.48 405.13 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 675.64 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "TTI Price/Stock" ""
-			(at 411.48 407.67 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.00 mm"
+			(at 675.64 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Amphenol"
-			(at 411.48 410.21 0)
+		(property "MANUFACTURER" "JST"
+			(at 675.64 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "031-71052"
-			(at 411.48 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "e9de54c9-699c-41ce-a8f6-c8b476cb00e1")
+			(uuid "6a1ddf36-6355-4c30-9e7b-50f90387faa2")
 		)
 		(pin "2"
-			(uuid "8c28f043-ec1e-4827-84df-7608a125ca24")
+			(uuid "71aebe43-3005-4c24-bdc8-3fdd0c633a49")
 		)
-		(pin "MH1"
-			(uuid "e1cc1b50-574c-4b0f-ab66-9eb62cc58621")
+		(pin "3"
+			(uuid "08949cb2-97e8-489d-ba16-ea3dc8d78853")
 		)
-		(pin "MH2"
-			(uuid "a25f13c7-a8ff-4ff6-a1f7-9d41ed661511")
+		(pin "4"
+			(uuid "3b4e42b9-3bfd-4dc6-90d7-5e43e4a78991")
 		)
 		(instances
-			(project "Untitled"
+			(project ""
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
-					(reference "J8")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -16658,6 +17715,126 @@
 			(project "Untitled"
 				(path "/55defa50-f337-465d-9205-eb8743077cf4"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ERA-3AEB103V:ERA-3AEB103V")
+		(at 563.88 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd053c24-018e-4831-b39b-08fa3b5d1462")
+		(property "Reference" "R7"
+			(at 572.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-3AEB103V"
+			(at 572.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA-3AEB:ERA3AEB101V"
+			(at 577.85 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 577.85 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 0603 1/10W 10Kohms 0.1% 25ppm"
+			(at 563.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 577.85 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB103V"
+			(at 577.85 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AEB103V?qs=1VWA5LkbEaprA2zo9bMIGA%3D%3D"
+			(at 577.85 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 577.85 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB103V"
+			(at 577.85 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "176c1171-6887-44c3-9777-7a55a82541b6")
+		)
+		(pin "1"
+			(uuid "453f3b50-2c83-4203-947c-ed9941e1ff4f")
+		)
+		(instances
+			(project "AnalogOscillator"
+				(path "/55defa50-f337-465d-9205-eb8743077cf4"
+					(reference "R7")
 					(unit 1)
 				)
 			)

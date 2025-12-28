@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LC1258EENP")(type "KiCad")(uri "${KIPRJMOD}/LIB/LC1258EENP/LC1258EENP.kicad_sym")(options "")(descr ""))
+  (lib (name "RK09D113F25C0B504")(type "KiCad")(uri "${KIPRJMOD}/LIB/LIB_RK09D113F25C0B504/RK09D113F25C0B504.kicad_sym")(options "")(descr ""))
+)
